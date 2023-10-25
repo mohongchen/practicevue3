@@ -19,7 +19,16 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const tabbarData = [
+  {
+    text: '首页',
+    image: '@/assets/img/tabbar/tab_home.png',
+    active: '@/assets/img/tabbar/tab_home_active.png',
+    path: '/home',
+  },
+]
+</script>
 
 <style lang="less" scoped>
 .tab-bar {
