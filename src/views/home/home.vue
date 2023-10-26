@@ -1,7 +1,11 @@
 <template>
-  <div class="home">4132145</div>
+  <div class="home">
+    <home-nav-bar />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import HomeNavBar from './components/home-nav-bar.vue'
+</script>
 
 <style lang="less" scoped></style>
